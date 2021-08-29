@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0
+}
+h1{
+    font-family:'Rokkitt', san-serif;
+    font-weight:700;
+    font-size:64px;
+    padding: 20px
+}
+@media screen and (min-width:700px){
+    h1{
+        font-size:42px
+    }
+}
+h2{
+    font-family:'Rokkitt', san-serif;
+    font-weight:700;
+    font-size:32px;
+    padding:20px
+}
+h3{
+    font-weight:700;
+    font-size:24px
+}
+h4{
+    font-weight:500;
+    font-size:24px
+}
+p{
+    font-size:22px
+}
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto
+}
+.container{
+    width:1200px;
+    max-width:100%;
+    margin:0 auto
+}
+.columns{
+    display:flex;
+    justify-content: space-evenly;
+}
+.block{
+    padding:30px 32px 10px 32px;
+}
+.button{
+    display:block;
+    outline:none;
+    padding:5px;
+    border-radius:10px;
+    cursor:pointer;
+    font-family:'Rokkitt', san-serif;
+    font-weight:700;
+    font-size:24px;
+    text-decoration:none
+}
+.button:hover{
+    opacity:0.8;
+}
+.button.header{
+    background-color:white;
+    font-weight:700;
+    color:#595b83
+}
+.button.primary{
+    background-color:#595b83;
+    margin-left:auto;
+    margin-right:auto
+}
+.button.secondary{
+    background-color:white
+}
+.text-center{
+    text-align: center;
+}
+header{
+    display:flex;
+    padding:10px 30px;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#595b83
+}
+.header-logo img{
+    width:30px;
+    height:auto
+}
+.header-nav{
+    display:flex;
+    align-items: baseline
+}
+.header-nav .nav-link{
+    display:inline-block;
+    list-style:none;
+    font-size:18px;
+    margin-right:18px
+}
+.header-nav .nav-link a{
+    text-decoration:none;
+    color:white;
+    font-family:'Rokkitt',san-serif;
+    font-weight:700;
+    font-size:24px
+}
+.block-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image:url(img/background-1.jpg);
+    background-position: center;
+    padding: 225px 50px
+}
+.block-header-2{
+    background-image:url(img/background-2.jpg);
+}
+.block-header-3{
+    background-image:url(img/background-3.jpg);
+}
+.block-header-4{
+    background-image:url(img/background-4.jpg);
+}
+.block-header-5{
+    background-image:url(img/background-5.jpg);
+}
+footer{
+    background-color:#060930;
+    border-top:2px;
+    border-color:black
+}
+.light{
+    color:white
+}
+.dark{
+    color:black
+}
+.no-deco{
+    text-decoration:none;
+}
+.center{
+    padding:0 auto
+}
