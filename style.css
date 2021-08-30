@@ -227,6 +227,7 @@ img {
     align-items: center;
     background-image: url(img/background-1.jpg);
     background-position:  center;
+    background-size: cover;
     height: 100vh
 }
 .block-header-2 {
