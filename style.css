@@ -139,7 +139,7 @@ img {
     .nav-menu {
         display: grid;
         grid-template-columns: auto;
-        background: #ce1212;
+        background: #fbf297;
         margin: 0;
         position: absolute;
         width: 100%;
