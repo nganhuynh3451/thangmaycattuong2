@@ -48,7 +48,7 @@ img {
     justify-content:  space-evenly;
 }
 .block {
-    padding: 30px 32px 10px 32px;
+    padding: 30px 32px 0 32px;
 }
 .button {
     display: block;
@@ -244,7 +244,8 @@ img {
 footer {
     background: #060930;
     border-top: 2px;
-    border-color: black
+    border-color: black;
+    padding-bottom: 30px;
 }
 .light {
     color: #eeebdd
