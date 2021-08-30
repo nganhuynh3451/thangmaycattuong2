@@ -228,6 +228,7 @@ img {
     background-image: url(img/background-1.jpg);
     background-position:  center;
     background-size: cover;
+    opacity: 0.8;
     height: 100vh
 }
 .block-header-2 {
