@@ -31,7 +31,7 @@ p {
     font-size: 22px
 }
 a {
-    color: #595b83
+    color: #1b1717
 }
 img {
     display: block;
@@ -63,25 +63,20 @@ img {
 .button:hover {
     opacity: 0.8;
 }
-.button.header {
-    background: white;
-    font-weight: 700;
-    color: #595b83
-}
 .button.primary {
-    background: #595b83;
+    background: #1b1717;
     margin-left: auto;
     margin-right: auto
 }
 .button.secondary {
-    background: white
+    background: #eeebdd
 }
 .text-center {
     text-align:  center;
 }
 .navigation {
     width: 100%;
-    background: #595b83;
+    background: #1b1717;
 }
 .navbar {
     display: grid;
@@ -90,7 +85,7 @@ img {
     height: 60px;
     max-width: 1720px;
     margin: 0 auto;
-    background: #595b83;
+    background: #1b1717;
 }
 .navbar-logo {
     justify-self: start;
@@ -98,7 +93,7 @@ img {
 }
 .navbar-logo img {
     width: 50px;
-    height: auto;
+    height: 50px;
 }
 .nav-menu {
     display: grid;
@@ -109,25 +104,25 @@ img {
     justify-self: end;
 }
 .nav-link {
-    color: white;
+    color: #eeebdd;
     font-size: 20px;
     text-decoration: none;
 }
 .nav-link:hover {
-    color: #f05454;
+    color: #ce1212;
     transition: all 0.3s ease-out;
 }
 .nav-link-btn {
-    background: #f05454;
-    color: white;
+    background: #ce1212;
+    color: #eeebdd;
     padding: 6px 16px;
     border-radius: 5px;
 }
 .nav-link-btn:hover {
     background: transparent;
-    color: white;
+    color: #eeebdd;
     padding: 5px 15px;
-    border: solid 1px #f05454;
+    border: solid 1px #ce1212;
     transition: all 0.3s ease-out;
 }
 .menu-toggle .bar {
@@ -135,7 +130,7 @@ img {
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background: white;
+    background: #eeebdd;
 }
 @media screen and (max-width:768px) {
     .navigation {
@@ -144,7 +139,7 @@ img {
     .nav-menu {
         display: grid;
         grid-template-columns: auto;
-        background: #f05454;
+        background: #ce1212;
         margin: 0;
         position: absolute;
         width: 100%;
@@ -158,7 +153,7 @@ img {
         margin-left: 20px
     }
     .nav-menu.active {
-        background: #595b83;
+        background: #1b1717;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -170,8 +165,8 @@ img {
         display: table;
     }
     .nav-link:hover {
-        background: #f05454;
-        color: white;
+        background: #ce1212;
+        color: #eeebdd;
         transition: all 0.4s ease-out;
     }
     .navbar {
@@ -181,16 +176,16 @@ img {
         border: none;
         padding: 0;
         border-radius: 0;
-        background: #595b83;
-        color: white;
+        background: #1b1717;
+        color: #eeebdd;
         transition: all 0.4s ease-out;
     }
     .nav-link-btn:hover {
         border: none;
         padding: 0;
         border-radius: 0;
-        background: #f05454;
-        color: white;
+        background: #ce1212;
+        color: #eeebdd;
         transition: all 0.4s ease-out;
     }
     #mobile-menu {
@@ -220,10 +215,10 @@ img {
     position: fixed;
     bottom: 15px;
     right: 15px;
-    border: 0;
+    border: solid 1px black;
     padding: 15px;
     transition: opacity 0.25 ease-in-out;
-    background: #595b83;
+    background: #1b1717;
     border-radius: 30px;
 }
 .block-header {
@@ -252,7 +247,7 @@ footer {
     border-color: black
 }
 .light {
-    color: white
+    color: #eeebdd
 }
 .dark {
     color: black
