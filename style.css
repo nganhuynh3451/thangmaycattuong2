@@ -242,9 +242,7 @@ img {
     background-image: url(img/background-5.jpg);
 }
 footer {
-    background: #060930;
-    border-top: 2px;
-    border-color: black;
+    background: #1b1717;
     padding-bottom: 30px;
 }
 .light {
