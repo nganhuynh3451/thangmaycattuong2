@@ -218,16 +218,16 @@ img {
     position: fixed;
     bottom: 15px;
     right: 15px;
-    border: solid 1px #eb8c4c;
-    transition: opacity 0.3 ease-in-out;
-    background: #fba60b;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    opacity: 0;
-    pointer-events: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: opacity 0.3 ease-in-out;
+    background: #fba60b;
 }
-.scroll-to-top.active {
+.scroll-to-top:active {
     opacity: 1;
     pointer-events: auto;
 }
