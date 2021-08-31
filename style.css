@@ -2,7 +2,10 @@
     box-sizing:  border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Rokkitt', san-serif;
+    font-family: 'Oswald', san-serif;
+}
+html {
+    scroll-behavior: smooth;
 }
 h1 {
     font-weight: 700;
@@ -31,7 +34,7 @@ p {
     font-size: 22px
 }
 a {
-    color: #1b1717
+    color: #fba60b
 }
 img {
     display: block;
@@ -64,7 +67,7 @@ img {
     opacity: 0.8;
 }
 .button.primary {
-    background: #fef297;
+    background: #fba60b;
     margin-left: auto;
     margin-right: auto
 }
@@ -76,7 +79,7 @@ img {
 }
 .navigation {
     width: 100%;
-    background: #1b1717;
+    background: #1d1d1d;
 }
 .navbar {
     display: grid;
@@ -85,7 +88,7 @@ img {
     height: 60px;
     max-width: 1720px;
     margin: 0 auto;
-    background: #1b1717;
+    background: #1d1d1d;
 }
 .navbar-logo {
     justify-self: start;
@@ -104,7 +107,7 @@ img {
     justify-self: end;
 }
 .nav-link {
-    color: #fef297;
+    color: #fba60b;
     font-size: 20px;
     text-decoration: none;
 }
@@ -113,16 +116,16 @@ img {
     transition: all 0.3s ease-out;
 }
 .nav-link-btn {
-    background: #fef297;
+    background: #fba60b;
     color: #1b1717;
     padding: 6px 16px;
     border-radius: 5px;
 }
 .nav-link-btn:hover {
     background: transparent;
-    color: #fef297;
+    color: #fba60b;
     padding: 5px 15px;
-    border: solid 1px #fef297;
+    border: solid 1px #fba60b;
     transition: all 0.3s ease-out;
 }
 .menu-toggle .bar {
@@ -130,7 +133,7 @@ img {
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background: #fef297;
+    background: #fba60b;
 }
 @media screen and (max-width:768px) {
     .navigation {
@@ -139,7 +142,7 @@ img {
     .nav-menu {
         display: grid;
         grid-template-columns: auto;
-        background: #fbf297;
+        background: #fba60b;
         margin: 0;
         position: absolute;
         width: 100%;
@@ -153,7 +156,7 @@ img {
         margin-left: 20px
     }
     .nav-menu.active {
-        background: #1b1717;
+        background: #1d1d1d;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -165,8 +168,8 @@ img {
         display: table;
     }
     .nav-link:hover {
-        background: #fbf297;
-        color: #1b1717;
+        background: #fba60b;
+        color: #1d1d1d;
         transition: all 0.4s ease-out;
     }
     .navbar {
@@ -176,16 +179,16 @@ img {
         border: none;
         padding: 0;
         border-radius: 0;
-        background: #1b1717;
-        color: #fef297;
+        background: #fba60b;
+        color: #1d1d1d;
         transition: all 0.4s ease-out;
     }
     .nav-link-btn:hover {
         border: none;
         padding: 0;
         border-radius: 0;
-        background: #fef297;
-        color: #1b1717;
+        background: #1d1d1d;
+        color: #fba60b;
         transition: all 0.4s ease-out;
     }
     #mobile-menu {
@@ -215,18 +218,25 @@ img {
     position: fixed;
     bottom: 15px;
     right: 15px;
-    border: solid 1px #1b1717;
-    padding: 15px;
-    transition: opacity 0.25 ease-in-out;
-    background: #fbf297;
-    border-radius: 30px;
+    border: solid 1px #eb8c4c;
+    transition: opacity 0.3 ease-in-out;
+    background: #fba60b;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+}
+.scroll-to-top.active {
+    opacity: 1;
+    pointer-events: auto;
 }
 .block-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-image: url(img/background-1.jpg);
-    background-position:  center;
+    background-position: center;
     background-size: cover;
     opacity: 0.8;
     height: 100vh
@@ -244,11 +254,11 @@ img {
     background-image: url(img/background-5.jpg);
 }
 footer {
-    background: #1b1717;
+    background: #1d1d1d;
     padding-bottom: 30px;
 }
 .light {
-    color: #fef297
+    color: #f7f7f7
 }
 .dark {
     color: black
