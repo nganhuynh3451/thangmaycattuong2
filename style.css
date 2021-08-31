@@ -6,12 +6,13 @@
     box-sizing:  border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Oswald', san-serif;
+    color:#1d1d1d;
 }
 html {
     scroll-behavior: smooth;
 }
 h1 {
+    font-family: 'Oswald', san-serif;
     font-weight: 700;
     font-size: 64px;
     padding:  20px
@@ -22,20 +23,23 @@ h1 {
     }
 }
 h2 {
+    font-family: 'Oswald', san-serif;
     font-weight: 700;
     font-size: 32px;
     padding: 20px
 }
 h3 {
+    font-family: 'Oswald', san-serif;
     font-weight: 700;
     font-size: 24px
 }
 h4 {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 24px
 }
 p {
-    font-size: 22px
+    font-weight: 400;
+    font-size: 24px
 }
 a {
     color: #fba60b
@@ -111,6 +115,7 @@ img {
     justify-self: end;
 }
 .nav-link {
+    font-family: 'Oswald', san-serif;
     color: #fba60b;
     font-size: 20px;
     text-decoration: none;
